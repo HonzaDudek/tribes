@@ -1,0 +1,24 @@
+.notifications__header {
+  width: 100%;
+  min-width: 300px;
+  padding-left: 25px;
+
+  font-size: 20px;
+  font-weight: bold;
+  background: white;
+}
+
+.notifications__item {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: 100px;
+  margin: 10px auto;
+
+  background: white;
+}
+
+
+
+

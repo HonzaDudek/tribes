@@ -1,0 +1,109 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* General styles */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: url("/assets/images/bg_main-01.png") repeat;
+}
+
+/* Development styles */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+app-login,
+app-register {
+  background: rgba(255, 255, 255, 0.8);
+
+}
+
+app-loading {
+  height: 100%;
+}
+
+form,
+app-login,
+app-register {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  width: 90%;
+  max-width: 568px;
+
+}
+
+.form__row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.form__row label {
+  width: 30%;
+}
+
+.form__row input {
+  width: 90%;
+  height: 25px;
+  margin: 20px auto;
+  padding: 10px;
+  background: transparent;
+
+  border: none;
+  border-bottom: 2px solid #10968B;
+}
+
+form button {
+  border-radius: 10px;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: #10968B;
+}
+
+form button:hover {
+  color: #10968B;
+  border: 2px solid #10968B;
+  background-color: white;
+  cursor: pointer;
+}
+
+form .error p {
+  color: darkred;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.form-control .ng-invalid {
+   border-bottom: 2px solid red;
+ }
+
+.form-control .ng-valid  {
+  border-bottom: 2px solid #10968B;
+}
+
+
+
+/* Buildings component styles */
+
+.building {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
